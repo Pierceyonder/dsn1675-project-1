@@ -17,7 +17,8 @@ html {
 }
 
 body {
-	background-color: #41b1bf;
+margin: none;
+padding: none;
 }
 
 h1 {
@@ -31,3 +32,11 @@ h2 {
 	color: #e55c4c;
 }
 
+.profilepic {
+	width: 100%;
+	padding: none;
+}
+
+.socialmedia {
+	width: 20%;
+}
