@@ -60,7 +60,7 @@ p {
 	display: block;
 	color: white;
 	text-decoration: none;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 .introduction a:hover {
@@ -109,9 +109,8 @@ footer a:hover {
 
 @media only screen and (min-width: 35em) {
 
-body {
-	background-color: limegreen;
+.twittericon, .instagramicon, .facebookicon, .behanceicon {
+	width: 15%;
 
-	}
 }
 
