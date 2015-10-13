@@ -82,7 +82,6 @@ p {
 .twittericon, .instagramicon, .facebookicon, .behanceicon {
 	width: 23%;
 
-
 }
 
 .twittericon:hover, .instagramicon:hover, .facebookicon:hover, .behanceicon:hover {
@@ -117,6 +116,26 @@ footer a:hover {
 
 
 
-
-
 @media only screen and (min-width: 70em) {
+
+
+
+
+
+}
+}
+
+@media print{
+
+.socialmediabuttons {
+	display: none;
+}
+
+footer {
+	display: none;
+}
+
+.profilepic {
+display: none;
+
+}
