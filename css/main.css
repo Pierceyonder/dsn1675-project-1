@@ -10,6 +10,8 @@ html {
 	ms-text-size-adjust: 100%;
 	webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+
+	line-height: 1.3;
 }
 
 *, *::before, *::after {
@@ -22,14 +24,14 @@ margin: 0;
 
 h1 {
 	text-align: center;
-	font-size: 3em;
+	font-size: 3.5em;
 	color: white;
 	font-family: 'Pacifico', cursive;
 	margin: 0em;
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 2.5em;
 	color: #e55c4c;
 	margin-bottom: 0;
 	text-align: center;
@@ -42,7 +44,7 @@ h2 {
 }
 
 p {
-	margin: 1em;
+	margin: 0.5em;
 	font-family: 'Slabo 27px', serif;
 }
 
@@ -60,12 +62,12 @@ p {
 
 .socialmediabuttons {
 	text-align: center;
-
+	margin-top: 2em;
 }
 
 .twittericon, .instagramicon, .facebookicon, .behanceicon {
-	width: 20%;
-		margin-left: 3%;
+	width: 23%;
+
 }
 
 footer {
@@ -73,7 +75,8 @@ footer {
 	padding: none;
 	padding: 1em;
 	color: white;
-	margin: 2em 0 0 0;
+	margin: 0;
+	font-size: 1.5em;
 }
 
 }
