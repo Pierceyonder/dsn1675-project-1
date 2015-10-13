@@ -48,7 +48,6 @@ h2 {
 
 p {
 	margin: 0.5em;
-	font-family: 'Slabo 27px', serif;
 }
 
 .introduction {
@@ -106,36 +105,13 @@ footer a:hover {
 	color: #41b1bf;
 	text-decoration: none;
 }
+
+
+@media only screen and (min-width: 35em) {
+
+body {
+	background-color: limegreen;
+
+	}
 }
 
-
-@media only screen and (min-width: 50em) {
-
-
-
-
-
-
-@media only screen and (min-width: 70em) {
-
-
-
-
-
-}
-}
-
-@media print{
-
-.socialmediabuttons {
-	display: none;
-}
-
-footer {
-	display: none;
-}
-
-.profilepic {
-display: none;
-
-}
